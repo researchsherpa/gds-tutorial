@@ -69,7 +69,6 @@ The notebooks in this project demonstrate common geodata idioms to address these
    - [4-morphology.ipynb](notebooks/4-morphology.ipynb) - Techniques to compare neighborhoods
    
      - Clustering zones
-     - Population measures
      - Street network measures<br><br>
      
      
