@@ -39,14 +39,14 @@ from ipyleaflet import (Map, Rectangle, GeoJSON, FullScreenControl,
                         CircleMarker, LegendControl, Choropleth,
                         TileLayer, basemaps, basemap_to_tiles)
 
-from bqplot import pyplot as plt
-from bqplot import (LinearScale, LogScale, OrdinalScale, ColorScale,
-                    Scatter,
-                    Figure,
-                    ColorScale,
-                    Bars,
-                    )
+#from bqplot import pyplot as plt
+#from bqplot import (LinearScale, LogScale, OrdinalScale, ColorScale,
+#                    Scatter,
+#                    Figure,
+#                    ColorScale,
+#                    Bars,
+#                    )
 
 from branca.colormap import linear
 
-sys.path.append('../src')
+#sys.path.append('../src')

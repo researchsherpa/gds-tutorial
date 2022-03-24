@@ -82,6 +82,20 @@ Since this is a github repo I'm trying to avoid having to use lfs.  There are tw
   2. [LA businessess](https://data.lacity.org/Administration-Finance/Listing-of-Active-Businesses/6rrh-rzua) pubished by data.lacity.org
   
 I have included the rest of the data or what is needed is computed from these two.
+
+# Notes on the env
+
+Here's a simple recipe to create the env from scratch using anaconda:: 
+
+  1. Make sure Anaconda is installed and `git clone` this repository from github.  cd into the gds-tutorial folder.  
+  
+  2. In the gds-tutorial folder you should see the environment.yml file.  Use this to build the env using conda:  `conda env create -f environment.yml`
+  
+  3. Once the create env is completed, activate the new env: `conda activate gds-tutorial`
+  
+  4. At this point you will have a working jupyter lab with the necessary widgets.  Launch the lab with `juptyer lab`.
+  
+  5. You're ready to explore, understand, develop, ...
  
 
  
